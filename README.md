@@ -1,2 +1,9 @@
 # KDA
 This repository is the code of paper 'Boosting Audio-visual Zero-shot Learning with Large Language Models'.
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/boosting-audio-visual-zero-shot-learning-with/gzsl-video-classification-on-activitynet-gzsl)](https://paperswithcode.com/sota/gzsl-video-classification-on-activitynet-gzsl?p=boosting-audio-visual-zero-shot-learning-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/boosting-audio-visual-zero-shot-learning-with/gzsl-video-classification-on-activitynet-gzsl-1)](https://paperswithcode.com/sota/gzsl-video-classification-on-activitynet-gzsl-1?p=boosting-audio-visual-zero-shot-learning-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/boosting-audio-visual-zero-shot-learning-with/gzsl-video-classification-on-ucf-gzsl-cls)](https://paperswithcode.com/sota/gzsl-video-classification-on-ucf-gzsl-cls?p=boosting-audio-visual-zero-shot-learning-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/boosting-audio-visual-zero-shot-learning-with/gzsl-video-classification-on-ucf-gzsl-main)](https://paperswithcode.com/sota/gzsl-video-classification-on-ucf-gzsl-main?p=boosting-audio-visual-zero-shot-learning-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/boosting-audio-visual-zero-shot-learning-with/gzsl-video-classification-on-vggsound-gzsl)](https://paperswithcode.com/sota/gzsl-video-classification-on-vggsound-gzsl?p=boosting-audio-visual-zero-shot-learning-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/boosting-audio-visual-zero-shot-learning-with/gzsl-video-classification-on-vggsound-gzsl-1)](https://paperswithcode.com/sota/gzsl-video-classification-on-vggsound-gzsl-1?p=boosting-audio-visual-zero-shot-learning-with)
