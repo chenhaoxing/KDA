@@ -182,14 +182,14 @@ class TargetDifficulty(Metric):
 
 
 class MeanClassAccuracy(Metric):
-    def __init__(self, model, dataset, device, distance_fn, new_model_attention=False,model_devise=False,apn=False,args=None):
+    def __init__(self, model, dataset, device, distance_fn, new_model_attention=False,model_devise=False,kda=False,args=None):
         super(MeanClassAccuracy, self).__init__()
         self.model = model
         self.model_devise=model_devise
         self.new_model_attention=new_model_attention
         self.dataset = dataset
         self.device = device
-        self.apn=apn
+        self.kda=kda
         self.distance_fn = distance_fn
         self.args = args
         self.audio_seen = []
@@ -216,7 +216,7 @@ class MeanClassAccuracy(Metric):
 
     def __call__(self, outputs, target, loss_outputs):
 
-        if self.new_model_attention==False and self.model_devise==False and self.apn==False:
+        if self.new_model_attention==False and self.model_devise==False and self.kda==False:
             evaluation = evaluate_dataset(dataset=self.dataset, model=self.model, device=self.device,
                                           distance_fn=self.distance_fn, args=self.args)
         else:
@@ -224,7 +224,7 @@ class MeanClassAccuracy(Metric):
                                                    distance_fn=self.distance_fn,
                                                    new_model_attention=self.new_model_attention,
                                                    model_devise=self.model_devise,
-                                                   apn=self.apn,
+                                                   kda=self.kda,
                                                    args=self.args)
 
         self.audio_seen.append(evaluation["audio"]["seen"])
